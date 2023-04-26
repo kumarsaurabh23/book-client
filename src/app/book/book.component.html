@@ -1,0 +1,19 @@
+<div>
+  <h1>Angular HTML Table Example</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of books">
+        <td>{{ item.name }}</td>
+        <td>{{ item.author }}</td>
+        <td>{{ item.price }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
